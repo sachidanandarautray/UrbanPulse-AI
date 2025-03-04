@@ -32,4 +32,16 @@ UrbanPulse AI is a deep learning-powered object detection system that identifies
 - **OpenCV**  
 - **Torch**  
 
-## 📂 Folder Structure  
+## 📂 Folder Structure
+
+UrbanPulse_AI/ │── main.py # FastAPI backend
+│── services/ # Core processing logic
+│ │── yolo_service.py # YOLO model integration
+│ │── videoprocessing.py # Video frame processing
+│── utils/
+│ │── image_processing.py # Bounding box and visualization
+│── models/
+│ │── best.pt # Custom-trained YOLOv5 model
+│── static/ # Processed video storage
+│── README.md # Project documentation
+│── requirements.txt # Dependencies
